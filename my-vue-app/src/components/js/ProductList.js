@@ -25,7 +25,6 @@ export default function useProductList() {
     if (!userId.value) {
       console.error('User ID is not set');
       showNotification('Please log in to fetch products.');
-      return;
     }
 
     try {
